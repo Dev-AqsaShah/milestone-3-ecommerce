@@ -2,5 +2,50 @@
 @tailwind components;
 @tailwind utilities;
 
+/* globals.css */
 
+/* CSS reset for consistent styling across browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set a global font and background color */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Global link styles */
+  a {
+    color: #0070f3;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Set a max width for the content and center it */
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Basic styling for headings */
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for images */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
   

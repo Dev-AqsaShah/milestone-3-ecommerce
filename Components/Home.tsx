@@ -12,7 +12,7 @@ const Home: React.FC = () => {
         </div>
         <h5 className="text-7xl font-extrabold animate-pulse">Enjoy Shopping</h5>
         <h6 className="text-6xl font-extrabold animate-pulse">New Collection</h6>
-        <h7 className="text-5xl font-extrabold animate-pulse">For Everyone</h7>
+        <h6 className="text-5xl font-extrabold animate-pulse">For Everyone</h6>
       </div>
       <div className="flex-shrink-0">
         <img
