@@ -11,7 +11,7 @@ export default function Navbar() {
      <>
       <nav className="h-16 w-full bg-gradient-to-r from-blue-800 to-white flex justify-between items-center relative px-10">
         <div className=" flex flex-row">
-        <Image src="/assets/logo.jpg "alt="AqsaShah Logo" width={60} height={60} className='rounded-full ' />
+        <Image src="/assets/logo.jpg "alt="AqsaShah Logo" width={60} height={60} className="rounded-full" />
         <span className="text-black text-xl font-bold p-4 inline-block ">Aqsa Shah</span>
          </div> 
           
