@@ -1,21 +1,21 @@
-import React from 'react';
-import Image from 'next/image';
+import React from "react";
+import Image from "next/image";
 
 const Accessories: React.FC = () => {
   // Updated array with src and price properties
   const accessories = [
-    { src: '/assets/acc=1.webp', price: 'PKR 999' },
-    { src: '/assets/accessories-2.webp', price: 'PKR 1,299' },
-    { src: '/assets/accessories-3.webp', price: 'PKR 799' },
-    { src: '/assets/acc-4.webp', price: 'PKR 899' },
-    { src: '/assets/acc-5.webp', price: 'PKR 1,099' },
-    { src: '/assets/acc-6.webp', price: 'PKR 2,099' },
-    { src: '/assets/accessories-7.webp', price: 'PKR 899' },
-    { src: '/assets/acc-8.webp', price: 'PKR 1,599' },
-    { src: '/assets/acc-9.webp', price: 'PKR 1,599' },
-    { src: '/assets/acc-10.webp', price: 'PKR 999' },
-    { src: '/assets/acc-11.webp', price: 'PKR 2,099' },
-    { src: '/assets/acc-12.webp', price: 'PKR 1,999' },
+    { src: "/assets/acc=1.webp", price: "PKR 999" },
+    { src: "/assets/accessories-2.webp", price: "PKR 1,299" },
+    { src: "/assets/accessories-3.webp", price: "PKR 799" },
+    { src: "/assets/acc-4.webp", price: "PKR 899" },
+    { src: "/assets/acc-5.webp", price: "PKR 1,099" },
+    { src: "/assets/acc-6.webp", price: "PKR 2,099" },
+    { src: "/assets/accessories-7.webp", price: "PKR 899" },
+    { src: "/assets/acc-8.webp", price: "PKR 1,599" },
+    { src: "/assets/acc-9.webp", price: "PKR 1,599" },
+    { src: "/assets/acc-10.webp", price: "PKR 999" },
+    { src: "/assets/acc-11.webp", price: "PKR 2,099" },
+    { src: "/assets/acc-12.webp", price: "PKR 1,999" },
   ];
 
   return (
