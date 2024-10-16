@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "milestone-3-ecommerce",
+			"path": "../.."
+		},
+		{
+			"name": ".next",
+			"path": "../../../milestone-3/.next"
+		}
+	],
+	"settings": {}
+}
