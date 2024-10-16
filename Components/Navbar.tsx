@@ -1,14 +1,14 @@
 // Components/Navbar.tsx
 import React from "react";
 import { FaLinkedin, FaGithubSquare, FaInstagramSquare } from "react-icons/fa";
-import Image from 'next/image';
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Navbar() {
   return (
     <nav className="h-16 w-full bg-gradient-to-r from-blue-800 to-white flex justify-between items-center relative px-10">
       <div className="flex flex-row">
-        <Image src="/assets/logo.jpg.jpg" alt="AqsaShah Logo" width={50} height={40} className='rounded-full' />
+        <Image src="/assets/logo.jpg.jpg" alt="AqsaShah Logo" width={50} height={40} className="rounded-full" />
         <span className="text-black text-xl font-bold p-4 inline-block">Aqsa Shah</span>
       </div>
 
